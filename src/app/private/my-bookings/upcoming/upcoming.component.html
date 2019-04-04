@@ -1,0 +1,10 @@
+<div class="container">
+  <div *ngIf="data">
+    <div *ngFor="let booking of data" class="divDesign">
+      <p class="light">{{booking.date_time}}</p>
+      <p class="dark">{{booking.traveller}}</p>
+      <p class="light">{{booking.address}}</p>
+      <p [ngStyle]="{'color': getColor(booking.status)}">{{booking.status}}</p>
+    </div>
+  </div>
+</div>

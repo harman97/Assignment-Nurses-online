@@ -1,0 +1,25 @@
+.container{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 3%;
+}
+
+h2{
+    color: #00cc00;
+}
+
+label{
+    color: gray;
+}
+
+#btnSubmit{
+color: white;
+background-color: #00cc00;
+width: 250px;
+margin-left: 33%;
+}
+
+span{
+    cursor: pointer;
+    color: #00cc00;
+}

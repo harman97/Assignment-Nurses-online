@@ -1,0 +1,23 @@
+<ul class="nav justify-content-end">
+  <div class="main">
+    <img src="../../../assets/images/nurse.png" alt="Avatar" style="width:25px">
+    <b>NURSES</b>&nbsp;<span>ONLINE</span>
+  </div>
+  <li class="nav-item dropdown">
+
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+      aria-expanded="false">
+      <img src="../../../assets/images/boy.png" alt="Avatar" style="width:50px">
+    </a>
+
+    <div class="dropdown-menu">
+      <a class="dropdown-item" routerLink="/private/navbar/profile">MY PROFILE</a>
+      <a class="dropdown-item" routerLink="/private/navbar/my-bookings/upcoming">MY BOOKINGS</a>
+      <a class="dropdown-item" routerLink="/private/navbar/faq">FAQs</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" routerLink="/public/login">LOGOUT</a>
+    </div>
+  </li>
+</ul>
+
+<router-outlet></router-outlet>

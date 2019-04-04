@@ -1,0 +1,90 @@
+{
+  "users": [
+    {
+      "firstname": "harman1",
+      "email": "harman@gmail.com",
+      "address": "chandigarh",
+      "phone_number": 123,
+      "brief": "abc",
+      "password": "1234",
+      "lastname": "singh",
+      "id": 1
+    },
+    {
+      "firstname": "Ravish",
+      "email": "ravish@gmail.com",
+      "address": "Noida",
+      "phone_number": 90631,
+      "brief": "xyz",
+      "password": "123456",
+      "lastname": "kumar",
+      "id": 2
+    },
+    {
+      "firstname": "admin",
+      "email": "admin@gmail.com",
+      "address": "chandigarh",
+      "phone_number": 9876543210,
+      "brief": "",
+      "password": "123456",
+      "lastname": "admin1",
+      "id": 3
+    }
+  ],
+  "bookings": [
+    {
+      "date_time": "4 Apr 2019,09:00am",
+      "traveller": "Harman",
+      "address": "#53, Kalgidhar Road,Ropar",
+      "status": "STARTED",
+      "upcoming": true,
+      "past": false
+    },
+    {
+      "date_time": "4 Apr 2019,09:00am",
+      "traveller": "Ravish",
+      "address": "#53, Kalgidhar Road,Ropar",
+      "status": "PENDING",
+      "upcoming": true,
+      "past": false
+    },
+    {
+      "date_time": "4 Apr 2019,09:00am",
+      "traveller": "Vishal",
+      "address": "#53, Kalgidhar Road,Ropar",
+      "status": "ON THE WAY",
+      "upcoming": true,
+      "past": false
+    },
+    {
+      "date_time": "4 Apr 2019,09:00am",
+      "traveller": "Ravish",
+      "address": "#53, Kalgidhar Road,Ropar",
+      "status": "PENDING",
+      "upcoming": false,
+      "past": true
+    },
+    {
+      "date_time": "4 Apr 2019,09:00am",
+      "traveller": "Vishal",
+      "address": "#53, Kalgidhar Road,Ropar",
+      "status": "ON THE WAY",
+      "upcoming": false,
+      "past": true
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is Angular?",
+      "answer": "Angular is a TypeScript-based open-source front-end web application platform led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS. But let me tell you that Angular is completely different from AngularJS."
+    },
+    {
+      "question": "What Are the Benefits of Angular?",
+      "answer": "Angular uses modern web platforms to deliver app-like experiences."
+    },
+    {
+      "question": "What Are the Features of Angular 4?",
+      "answer": "Angular 4 supports the most recent versions of TypeScript, i.e. 2.1 and 2.2. This has enhanced the rate of ngc and enabled superior type checking."
+    }
+  ]
+}

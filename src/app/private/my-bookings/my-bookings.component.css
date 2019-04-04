@@ -1,0 +1,24 @@
+.main{
+    margin-top: 30px;
+    text-align: center;
+}
+span{
+    color:  #00cc00;
+}
+h4{
+    padding-bottom: 20px;
+}
+
+a{
+    color: gray;
+}
+
+.active{
+    color: #00cc00;
+}
+
+.container{
+    border: solid;
+    color: gray;
+    width: 50%;
+}

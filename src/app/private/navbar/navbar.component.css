@@ -1,0 +1,26 @@
+.nav{
+    width: 100%;
+    box-shadow: 0px 1px 5px grey;
+}
+
+.nav-link{
+color: gray;
+margin-right: 150px;
+}
+
+.dropdown-item{
+    color: gray;
+}
+
+img {
+    border-radius: 50%;
+}
+
+span{
+    color:#00cc00;
+}
+
+.main{
+    margin-right: 1050px;
+    margin-top: 22px;
+}

@@ -1,0 +1,70 @@
+<div class="container">
+  <div class="row">
+    <h3>PROFILE</h3>
+    <div class="col-md-6 divDesign">
+      <img src="../../../assets/images/boy.png" alt="Avatar" style="width:50px">
+      <br>
+      <br>
+      <form [formGroup]="profileForm" (ngSubmit)="onUpdate(profileForm.value)">
+        <div class="flex-container">
+          <div class="form-group">
+            <label for="firstname">FIRST NAME</label>
+            <div
+              *ngIf="profileForm.get('firstname').errors && (profileForm.get('firstname').dirty || profileForm.get('firstname').touched)"
+              class="text-danger">
+              <div *ngIf="profileForm.get('firstname').errors.required">
+                First Name is required.
+              </div>
+            </div>
+            <input type="text" formControlName="firstname" class="form-control">
+          </div>
+          <div class="form-group">
+            <label>EMAIL</label>
+            <div
+              *ngIf="profileForm.get('email').errors && (profileForm.get('email').dirty || profileForm.get('email').touched)"
+              class="text-danger">
+              <div *ngIf="profileForm.get('email').errors.required">
+                Email is required.
+              </div>
+              <div *ngIf="profileForm.get('email').errors.email">Email must be a valid email address.</div>
+            </div>
+            <input type="email" formControlName="email" class="form-control">
+          </div>
+        </div>
+        <div class="flex-container">
+          <div class="form-group">
+            <label>PHONE NUMBER</label>
+            <div
+              *ngIf="profileForm.get('phone_number').errors && (profileForm.get('phone_number').dirty || profileForm.get('phone_number').touched)"
+              class="text-danger">
+              <div *ngIf="profileForm.get('phone_number').errors.required">
+                Phone Number is required.
+              </div>
+            </div>
+            <input type="number" formControlName="phone_number" class="form-control">
+          </div>
+          <div class="form-group">
+            <label>ADDRESS</label>
+            <div
+              *ngIf="profileForm.get('address').errors && (profileForm.get('address').dirty || profileForm.get('address').touched)"
+              class="text-danger">
+              <div *ngIf="profileForm.get('address').errors.required">
+                Address is required.
+              </div>
+            </div>
+            <input type="text" formControlName="address" class="form-control">
+          </div>
+        </div>
+        <div class="flex-container">
+          <div class="form-group ">
+            <label>BRIEF MEDICAL HISTORY OF THE PATIENT (OPTIONAL)</label>
+            <input type="text" class="form-control" formControlName="brief" />
+          </div>
+          <div class="form-group button">
+            <input type="submit" id="btnSubmit" value="UPDATE PROFILE" class="btn btn">
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

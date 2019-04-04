@@ -1,0 +1,26 @@
+.light{
+    color: gray;
+}
+
+.dark{
+    font-weight: 900;
+}
+
+.divDesign{
+    border: solid;
+    background-color: #f8fbfb;
+    padding-left: 15px;
+    padding-top: 15px;
+    border-color: lightgray;
+    margin: 20px;
+}
+
+p{
+    margin-bottom: 3px;
+}
+
+.container{
+    border: solid;
+    color: gray;
+    width: 50%;
+}
